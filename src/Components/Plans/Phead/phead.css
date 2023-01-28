@@ -1,0 +1,16 @@
+.phead__zero {
+  background: url("../../../Assets/gym__plan_one.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  position: relative;
+  text-align: center;
+  background-position: center;
+}
+.phead__color {
+  padding-top: 9rem;
+}
+.phead__color p {
+  color: var(--color-grey-100);
+  font-weight: 900;
+}

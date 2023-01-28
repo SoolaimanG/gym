@@ -1,0 +1,38 @@
+.trainer__two {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 1rem;
+  text-align: center;
+}
+.trainer__two img {
+  height: 20rem;
+  width: 100%;
+  border-radius: 2rem 0rem 2rem 0rem;
+}
+.trainer__three {
+  background: var(--color-grey-500);
+  padding: 3rem 2rem;
+  border-radius: 2rem 0rem 2rem 0rem;
+  transition: var(--transition);
+  border: var(--color-grey-500) solid 2px;
+}
+.trainer__three h3 {
+  padding: 1rem;
+}
+.trainer__three span {
+  font-weight: 700;
+}
+.trainer__three:hover {
+  background: transparent;
+}
+.trainer__four {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+.trainer__five {
+  color: var(--color-grey-100);
+  background: var(--color-grey-400);
+}

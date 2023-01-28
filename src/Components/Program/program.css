@@ -1,0 +1,41 @@
+.program__container {
+  margin-top: 3rem;
+  min-height: 100vh;
+}
+
+.program__header {
+  display: flex;
+  gap: 1rem;
+}
+.program__grid {
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.map__each {
+  padding: 3rem 1rem;
+  background: var(--color-grey-500);
+  border-radius: 0rem 2rem 0rem 2rem;
+  border: solid var(--color-grey-500) 2px;
+  transition: var(--transition);
+}
+.map__each:hover {
+  background: transparent;
+}
+.setting__icon svg {
+  width: 45px;
+  height: 45px;
+  background: var(--color-primary);
+  border-radius: 5px;
+  padding-bottom: 13px;
+  color: var(--color-grey-100);
+  font-size: 1.6rem;
+  padding-top: 10px;
+}
+.btn__cta {
+  padding: 0.3rem 1rem;
+}

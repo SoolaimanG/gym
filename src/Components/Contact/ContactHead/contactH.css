@@ -1,0 +1,16 @@
+.contact__zero {
+  background: url("../../../Assets/gym__contact_one.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  position: relative;
+  text-align: center;
+  background-position: center;
+}
+.contact__color {
+  padding-top: 9rem;
+}
+.contact__color p {
+  color: var(--color-grey-100);
+  font-weight: 900;
+}

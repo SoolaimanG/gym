@@ -1,0 +1,19 @@
+.header__zero {
+  background: url("../../../Assets/gym__about_image_1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80vh;
+  position: relative;
+  text-align: center;
+  background-position: center;
+}
+.header__one {
+  padding-top: 9rem;
+}
+.header__one h2,
+p {
+  color: var(--color-grey-500);
+}
+.header__one p {
+  font-weight: 900;
+}

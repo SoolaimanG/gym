@@ -1,0 +1,29 @@
+.faq__second {
+  display: flex;
+  gap: 1rem;
+}
+.faq__fourth {
+  padding-top: 3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 1rem;
+}
+.faq__fifth {
+  padding: 1rem;
+  background: var(--color-grey-500);
+  border-radius: 1rem;
+}
+.faq__sixth {
+  display: flex;
+  justify-content: space-between;
+}
+/* ===============MEDIA QUERY(TABLET)================== */
+
+@media (max-width: 600px) {
+  .faq__fifth {
+    width: 17rem;
+  }
+  .faq__sixth h3 {
+    font-size: 0.9rem;
+  }
+}

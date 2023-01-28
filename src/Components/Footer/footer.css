@@ -1,0 +1,51 @@
+footer {
+  height: auto;
+  background: var(--color-primary);
+}
+.footer__container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  padding-top: 3rem;
+  gap: 1rem;
+}
+.footer__one {
+  line-height: 1.6;
+  padding: 2rem 0rem;
+}
+.footer__one h2 span {
+  color: var(--color-secondary);
+}
+.footer__one p {
+  color: var(--color-grey-100);
+}
+.footer__two {
+  display: flex;
+  gap: 1rem;
+  padding-top: 2rem;
+}
+.icon__svg_two {
+  background: var(--color-grey-100);
+  color: var(--color-grey-500);
+}
+.footer__three {
+  padding: 2rem;
+}
+.footer__four {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.footer__five {
+  padding: 2rem;
+}
+.footer__five ul {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.footer__five ul li {
+  color: var(--color-grey-100);
+  cursor: pointer;
+}

@@ -1,0 +1,16 @@
+.thead__zero {
+  background: url("../../../Assets/gym__trainers_one.avif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  position: relative;
+  text-align: center;
+  background-position: center;
+}
+.thead__color {
+  padding-top: 9rem;
+}
+.thead__color p {
+  color: var(--color-grey-100);
+  font-weight: 900;
+}

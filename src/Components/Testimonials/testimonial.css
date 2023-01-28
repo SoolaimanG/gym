@@ -1,0 +1,44 @@
+.container__one {
+  min-height: 100vh;
+  margin-top: -15rem;
+  /* display: grid;
+  align-items: center;
+  justify-content: center; */
+}
+.container__two {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.container__four {
+  width: 22rem;
+  position: relative;
+  padding: 2rem;
+  background: var(--color-grey-500);
+  margin-top: 1rem;
+  border: var(--color-grey-500) solid 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--transition);
+  border-radius: 0rem 2rem 0rem 2rem;
+}
+.container__four:hover {
+  background: transparent;
+}
+.container__five {
+  width: 2rem;
+  height: 1rem;
+  position: absolute;
+  top: -1rem;
+  z-index: 2;
+}
+.container__five img {
+  width: 100%;
+  border-radius: 10px;
+}
+.container__six h5 {
+  color: var(--color-grey-200);
+  padding: 10px 0px;
+}

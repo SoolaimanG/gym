@@ -1,0 +1,18 @@
+.gallery__zero {
+  background: url("../../../Assets/gym__gallery_four.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  position: relative;
+  text-align: center;
+  background-position: center;
+}
+.gallery__color {
+  padding-top: 9rem;
+}
+.gallery__color p {
+  font-weight: 900;
+}
+.gallery__color p {
+  color: var(--color-grey-500);
+}

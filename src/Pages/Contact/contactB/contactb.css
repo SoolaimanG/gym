@@ -1,0 +1,19 @@
+.contact_icon {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+.icon____svg {
+  width: 5rem;
+  height: 5rem;
+  color: var(--color-grey-100);
+  border: var(--color-grey-500) solid 2px;
+  transition: 500ms;
+}
+.icon____svg svg {
+  font-size: 2rem;
+}
+.icon____svg:hover {
+  background: transparent;
+}
